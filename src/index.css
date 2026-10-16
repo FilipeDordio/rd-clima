@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #221e18;
+  --color-ink-soft: #322c23;
+  --color-gold: #c79a45;
+  --color-gold-deep: #9c7530;
+  --color-paper: #faf7f1;
+  --color-line: #e8e1d3;
+  --color-muted: #746b5d;
+  --color-success: #3f8452;
+  --color-success-soft: #e9f3ea;
+  --color-warn-soft: #f6eedd;
+  --color-danger: #b54b3e;
+  --color-danger-soft: #fbeded;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  background-color: var(--color-paper);
+}
